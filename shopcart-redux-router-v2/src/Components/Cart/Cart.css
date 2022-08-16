@@ -1,0 +1,28 @@
+.cart-container{
+    /* width: max-content; */
+    margin-left: auto;
+    margin-right: auto;
+    background-color:rgb(236, 236, 236);
+    min-height: 100vh;
+    
+}
+
+.cart-title{
+    text-align: center;
+    font-size: 250%;
+    font-weight: bold;
+    color: darkslategray;
+}
+
+table {
+    border-collapse: collapse;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th, td {
+    padding: 30px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}

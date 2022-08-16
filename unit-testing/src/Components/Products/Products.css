@@ -1,0 +1,28 @@
+.productpage{
+    display: flex;
+    background-image: linear-gradient(rgb(218, 218, 255), rgb(209, 209, 209));
+    /* height: 90vh; */
+    min-height: 700px;
+}
+
+.sidebar{
+    flex: 20%;
+    /* max-height: 100vh; */
+    overflow-y: scroll;
+    background-color: white;
+}
+
+.products-container{
+    flex: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.5em;
+    justify-content: center;
+    padding-top: 3em;
+    padding-bottom: 2em;
+    height: max-content;
+    /* background-image: linear-gradient(rgb(118, 118, 203), rgb(121, 121, 121)); */
+    /* background-image: linear-gradient(rgb(218, 218, 255), rgb(209, 209, 209)); */
+    /* background-color: aliceblue; */
+}
+

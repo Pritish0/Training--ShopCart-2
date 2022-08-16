@@ -1,0 +1,127 @@
+.loginform{
+  background-image: linear-gradient(rgb(0, 0, 142), black);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.form-container{
+  width: 30%;
+  min-width: 10em;
+  border: 1px solid black;
+  padding: 20px;
+  padding-top: 0px;
+  border-radius: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color:lightslategrey;
+  box-shadow: 10px 10px 16px 1px rgb(103, 103, 103);
+  /* box-shadow: 10px 10px 16px 1px black; */
+  /* box-shadow: 0px 0px 24px 17px rgb(88, 111, 135); */
+}
+
+.login-title{
+  font-size: 200%;
+  font-weight: bold;
+  /* color: white; */
+  background-color: white;
+  width: max-content;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  color: grey;
+
+}
+
+.inputfield{
+  height: 30px;
+  border: 0.5px solid grey;
+  border-radius: 6px;
+  width: 97%;
+  font-size: 100%;
+  padding: 5px;
+  /* width: max-content; */
+}
+
+.field-flexcontainer{
+  display: flex;
+  gap: 2em;
+}
+
+.inputfieldcontainer{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  flex: 100%;
+}
+
+.fieldlabel{
+  /* font-size: 90%; */
+  color: rgb(70, 70, 180);
+}
+
+.btn-container{
+  display: flex;
+  justify-content: center;
+}
+
+.btn{
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 40px;
+  background-color: #277999;
+  box-shadow: 0 0 10px #093a4d;
+  border: transparent;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+  min-width: 100px;
+  font-size: 105%;
+}
+
+.btn:hover{
+  background-color:aqua;
+  transition: all .25s ease-in;
+}
+
+/* .btn:disabled{
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+} */
+  
+.error{
+  /* font-size: 80%; */
+  color: red;
+  background-color: white;
+  padding: 5px;
+  border-radius: 5px;
+  border: transparent;
+}
+
+.error::before{
+  content: '⚠';
+  color: red;
+}
+
+.field-tooltip-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+}
+
+.field-tooltip-container:first-child{
+  flex: 98%;
+}
+
+@media screen and (max-width: 600px) {
+  .field-tooltip-container{
+    flex-direction: column;
+  }
+}
